@@ -1,0 +1,23 @@
+{
+  "name": "mochainit",
+  "version": "1.0.0",
+  "description": "MEMO:\r \tgit submodule add https://github.com/visionmedia/mocha.git spec/vendor/mocha\r \tgit submodule add https://github.com/chaijs/chai.git spec/vendor/chai\r \tgit submodule init\r \tgit submodule update",
+  "main": "spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuromancer977/mochainit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neuromancer977/mochainit/issues"
+  },
+  "homepage": "https://github.com/neuromancer977/mochainit#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
