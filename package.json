@@ -18,6 +18,8 @@
   "homepage": "",
   "devDependencies": {
     "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-mocha": "^1.0.2",
     "mocha": "^3.2.0"
   }
 }

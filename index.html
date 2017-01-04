@@ -15,12 +15,16 @@
             ui: 'bdd',
             ignoreLeaks: true
         });
-
-        onload = function () {
-            mocha.run();
-        };
         </script>
         <!--  <script src="TODO"></script> Include source -->
         <script src="spec.js"></script>
+        <script>
+            if(navigator.userAgent.indexOf('PhantomJS') < 0) {
+                console.log(navigator.userAgent);
+                mocha.run();
+            } 
+        </script>
+
+        
     </body>
 </html>
