@@ -1,21 +1,6 @@
 {
   "name": "mochainit",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "test": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/neuromancer977/mochainit.git"
-  },
-  "author": "",
-  "license": "BSD",
-  "bugs": {
-    "url": "https://github.com/neuromancer977/mochainit/issues"
-  },
-  "homepage": "",
   "devDependencies": {
     "chai": "^3.5.0",
     "grunt": "^1.0.1",
